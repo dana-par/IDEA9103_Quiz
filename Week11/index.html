@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Week11 Quiz</title>
 </head>
 <body>
+    <script type="text/javascript" src="script.js"></script>
     <div class="container">
-        <div class="grid-header"></div>
+        <div class="grid-header"><h1>This area is for title</h1></div>
         <div class="grid-svg">
             <svg id = "svg-canvas" viewBox = "0 0 500 300" xmlns = "http://www.w3.org/2000/svg">
+                <rect id="myRectangle" x="10%" y="10%" width="100" height="80"></rect>
+                <line id="myLine" x1="40%" y1="20%" x2="50%" y2="30%" stroke="black" stroke-width="3"></line>
+                <circle id="myCircle" cx = "50%" cy = "50%" r = "30"></circle>
             </svg>
         </div>
-        <div class="grid-control"></div>
-        <div class="grid-text"></div>
+        <div class="grid-control"><p>This area is for controller</p></div>
+        <div class="grid-text"><p>This area is for description</p></div>
     </div>
 </body>
 </html>
